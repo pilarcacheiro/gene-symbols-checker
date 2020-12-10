@@ -20,7 +20,7 @@ The code can be run as follows:
 source("hgnc_symbol_checker.R")
 hgnc.checker(gene.symbols,gene.file)
 ```
-### Expected output from the example provided in the script
+#### Expected output from the example provided in the script
 |HGNC.ID|Gene.Symbol|Type|
 | ------------- |------------- |------------- |
 |HGNC:6722|BCAM|Approved.Symbol|
@@ -43,12 +43,12 @@ hgnc.checker(gene.symbols,gene.file)
 |-|CPAMD6|Ambiguous.Symbol|
 |-|BCT1|Ambiguous.Symbol|
 
-### Some notes
+#### Some notes
 
 * This is work in progress. This function relies on a series on assumptions that may not necessarily be true (if the gene symbol provided matches the current approved gene symbol, the function stops there. This symbol could match an old gene symbol or an alias as well; it is also sequential: approved > alias > previous).
 * The output does not provide solution for ambiguous calls.
 
-### Desirable feedback
+#### Desirable feedback
 
 * Mainly coding style. I am aware the code could be simplified and optimised.
 * Identify potential errors
