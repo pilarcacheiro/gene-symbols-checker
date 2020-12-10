@@ -1,4 +1,4 @@
-This repository contains the script "hgnc_symbol_checker.R"
+This repository contains the script **"hgnc_symbol_checker.R"**
 ####  Purpose
 To check a set of gene symbols and retrieve the corresponding hgnc id (stable identifiers). 
 Merging different files through gene symbols is a common and painful task for those of us working with genetic data. Gene symbols are not stable, they often get updated / removed, so it is advisable to use a set of stable identifier, in this case HGNC IDs, since they remain stable even if a name or symbol change.
