@@ -22,6 +22,7 @@ hgnc.checker(gene.symbols,gene.file)
 ```
 ### Expected output from the example provided in the script
 |HGNC.ID|Gene.Symbol|Type|
+| ------------- |------------- |------------- |
 |HGNC:6722|BCAM|Approved.Symbol|
 |HGNC:14725|OR2T2|Approved.Symbol|
 |HGNC:8931|PHKG2|Approved.Symbol|
@@ -44,7 +45,7 @@ hgnc.checker(gene.symbols,gene.file)
 
 ### Some notes
 
-* This is work in progress. This function relies on a series on assumptions that may not necessarily be true (if the gene symbol provided matches the current approved gene symbol, the function stops there. This symbol could match and old gene symbol or an alias as well; it is also sequential: approved > alias > previous).
+* This is work in progress. This function relies on a series on assumptions that may not necessarily be true (if the gene symbol provided matches the current approved gene symbol, the function stops there. This symbol could match an old gene symbol or an alias as well; it is also sequential: approved > alias > previous).
 * The output does not provide solution for ambiguous calls.
 
 ### Desirable feedback
