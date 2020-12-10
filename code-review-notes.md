@@ -55,3 +55,4 @@ hgnc.checker(gene.symbols,gene.file)
 * Suggestions for improving the output file
 * Suggestions for improving potential ambiguous calls
 * How useful do you find this function? Is it something that you think it could be converted into a package if improved/ considering some other scenarios (non protein coding genes)?
+* **Please be fair but kind!**
