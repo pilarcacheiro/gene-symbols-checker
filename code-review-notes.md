@@ -45,14 +45,14 @@ hgnc.checker(gene.symbols,gene.file)
 
 #### Some notes
 
-* This is work in progress. This function relies on a series on assumptions that may not necessarily be true (if the gene symbol provided matches the current approved gene symbol, the function stops there. This symbol could match an old gene symbol or an alias as well; it is also sequential: approved > alias > previous).
+* This is work in progress. This function relies on a series on assumptions that may not necessarily be true (if the gene symbol provided matches the current approved gene symbol, the function stops there. This symbol could match an old gene symbol or an alias as well; It is also sequential: approved > alias > previous).
 * The output does not provide solution for ambiguous calls.
 
 #### Desirable feedback
 
-* Mainly coding style. I am aware the code could be simplified and optimised.
-* Identify potential errors
-* Suggestions for improving the output file
-* Suggestions for improving potential ambiguous calls
+* Mainly coding style. I am aware the code could be simplified and optimised and made much more prettier.
+* Identify potential errors.
+* Suggestions for improving the output file.
+* Suggestions for improving potential ambiguous calls.
 * How useful do you find this function? Is it something that you think it could be converted into a package if improved/ considering some other scenarios (non protein coding genes)?
 * **Please be critical, fair and kind!**
